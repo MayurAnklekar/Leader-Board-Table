@@ -32,6 +32,10 @@
       .content-table tbody tr{
         border-bottom: 1px solid #dddddd;
       }
+      .content-table tbody tr:last-of-type{
+        border-bottom: 2px solid #2463EB;
+
+      }
     </style>
 
 
@@ -39,7 +43,7 @@
 
     <title>Leaderboard</title>
   </head>
-  <body>
+  <body class="bg-gray-200">
     <nav class="text-gray-50 bg-blue-600 flex justify-between">
       <div class="px-12 flex justify-between">
         <div>
@@ -60,7 +64,7 @@
       </div>
     </header>
     <div class="center">
-      <table class="content-table text-3xl rounded-xl text-center">
+      <table class="content-table text-3xl text-center bg-white">
         <thead>
           <tr>
             <th>#</th>
